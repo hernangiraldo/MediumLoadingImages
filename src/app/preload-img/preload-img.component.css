@@ -1,0 +1,29 @@
+:host {
+  background-color: #f6f6f6;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.image {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+.image--small {
+  opacity: 1;
+  transition: opacity .5s linear;
+  filter: blur(50px);
+}
+.image--small__hide {
+  opacity: 0;
+}
+.image--large {
+  opacity: 0;
+  transition: opacity .5s linear;
+}
+.image--large__show {
+  opacity: 1;
+}

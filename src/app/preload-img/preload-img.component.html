@@ -1,0 +1,2 @@
+<img [src]="smallPhoto" class="image image--small" [ngClass]="{ 'image--small__hide' : !hideBigImage}" alt="" >
+<img [src]="largePhoto" class="image image--large" [ngClass]="{ 'image--large__show' : !hideBigImage}" (load)="bigImageLoad()" alt="" >

@@ -1,0 +1,13 @@
+:host() {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  width: 500px;
+  height: 350px;
+  background: lightgray;
+}
+p {
+  max-width: 600px;
+}
